@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("font/As.otf");
+}
+@font-face {
+font-family: "Bod";
+ src: url("font/V.ttf");
+}
+@font-face {
+font-family: "Vog";
+ src: url("font/Reg.ttf");
+}
+body{
+   font-family: "Bod";
+}
+h1{
+    
+   font-family: "Bitstream Vera Serif Bold";
+}
+a:hover {
+	  color:#A7A7A7;
+}
+#zx{
+	transition: 0s opacity;
+   transition-delay:1s;
+}
+#zx:hover {
+	opacity: 0.5;
+	transition-delay:1s;
+}
+
+.dfs{
+	font-family: "Bitstream Vera Serif Bold";
+}
+
+.duf{
+	padding-top: 22px;
+	padding-bottom: 22px;
+	background-image: linear-gradient(-90deg, #08BCDB, #D8C3C3);
+}
+p{
+	font-family: "Vog";
+}
+@media only screen and (max-width: 600px) {
+ 
+  .duf{
+  	padding-top: 1px;
+  	padding-bottom:1px;
+
+	
+  }
+}
